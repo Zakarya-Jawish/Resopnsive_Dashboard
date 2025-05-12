@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dashboard_x/views/dashboard_view.dart';
 
 void main() {
   runApp(const DashboardUI());
@@ -6,13 +7,12 @@ void main() {
 
 class DashboardUI extends StatelessWidget {
   const DashboardUI({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      home: const Text('Flutter Demo Home Page'),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Admin Dashboard',
+      home: DashboardView(),
     );
   }
 }

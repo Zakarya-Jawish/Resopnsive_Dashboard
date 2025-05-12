@@ -1,0 +1,16 @@
+{
+    "outline.showTypeParameters": false,
+    "breadcrumbs.showTypeParameters": false,
+    "editor.suggest.showTypeParameters": false,
+    "editor.lightbulb.enabled": "on",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    }
+}
