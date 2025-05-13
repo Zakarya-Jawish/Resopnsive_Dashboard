@@ -12,7 +12,7 @@ class CustomDrawer extends StatelessWidget {
       child: const Column(
         children: [
           UserInfoListTile(
-            image: Assets.avatar1,
+            image: Assets.avatar3,
             title: 'Lekan Okeowo',
             subtitle: 'demo@gmail.com',
           ),
