@@ -11,11 +11,15 @@ class CustomDrawer extends StatelessWidget {
       color: Colors.white,
       child: const Column(
         children: [
-          UserInfoListTile(
-            image: Assets.avatar3,
-            title: 'Lekan Okeowo',
-            subtitle: 'demo@gmail.com',
+          Padding(
+            padding: EdgeInsets.only(left: 28.0, right: 20),
+            child: UserInfoListTile(
+              image: Assets.avatar3,
+              title: 'Lekan Okeowo',
+              subtitle: 'demo@gmail.com',
+            ),
           ),
+          SizedBox(height: 8),
         ],
       ),
     );
