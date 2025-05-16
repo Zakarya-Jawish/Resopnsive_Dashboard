@@ -112,7 +112,7 @@ abstract class AppStyles {
     } else if (width < 900) {
       return width / 700; // For tablets
     } else {
-      return width / 1000; // For desktop
+      return width / 1600; // For desktop
     }
   }
 }
